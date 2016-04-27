@@ -1,0 +1,23 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			
+			"folder_exclude_patterns": [
+			],
+
+			"file_exclude_patterns": [
+			]
+		}
+	],
+
+	"build_systems":
+	[
+		{
+			"name": "Build with GCC",
+			"working_dir": "$project_path",
+			"cmd": "gcc -o app problem.c bittools.c",
+		}
+	]
+}
